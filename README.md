@@ -39,7 +39,7 @@ override func viewDidLoad() {
 
 ### Try StatusBarKit
 
-To try HRColorPicker, open Terminal.app and enter the following command:
+To try StatusBarKit, open Terminal.app and enter the following command:
 
 ```swift
 pod try StatusBarKit
