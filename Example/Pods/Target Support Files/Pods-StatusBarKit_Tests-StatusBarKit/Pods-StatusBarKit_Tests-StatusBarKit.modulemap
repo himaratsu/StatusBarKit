@@ -1,0 +1,6 @@
+framework module StatusBarKit {
+  umbrella header "Pods-StatusBarKit_Tests-StatusBarKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

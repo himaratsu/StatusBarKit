@@ -1,0 +1,6 @@
+framework module Pods_StatusBarKit_Example {
+  umbrella header "Pods-StatusBarKit_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

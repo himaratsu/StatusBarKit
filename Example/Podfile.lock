@@ -1,0 +1,14 @@
+PODS:
+  - StatusBarKit (0.1.0)
+
+DEPENDENCIES:
+  - StatusBarKit (from `../`)
+
+EXTERNAL SOURCES:
+  StatusBarKit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  StatusBarKit: fcf1431cfb673acf6c067d4adcf31251030e2d42
+
+COCOAPODS: 0.37.2

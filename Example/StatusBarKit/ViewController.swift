@@ -7,17 +7,30 @@
 //
 
 import UIKit
+import StatusBarKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        let parameter = StatusViewParameter()
+        
+        let leftItem = StatusViewItem(title: "◀︎Back to Safari") {
+            UIApplication.sharedApplication().openURL(NSURL(string: "http://yahoo.co.jp")!)
+        }
+        let rightItem = StatusViewItem(title: "apple.com▶︎") {
+            UIApplication.sharedApplication().openURL(NSURL(string: "http://apple.com")!)
+        }
+        
+        parameter.leftItem = leftItem
+        parameter.rightItem = rightItem
+        parameter.backgroundColor = navigationController?.navigationBar.barTintColor
+        parameter.textColor = UIColor.whiteColor()
+        
+        
+        StatusViewManager.show(parameter)
+        
     }
 
 }
