@@ -7,6 +7,8 @@
 
 Customize your status bar like iOS 9.
 
+"◀︎Back to Safari" and "apple.com▶︎"
+
 ![](https://raw.githubusercontent.com/himaratsu/StatusBarKit/master/Example/StatusBarKit/screenshot.png)
 
 ![](https://github.com/himaratsu/StatusBarKit/blob/master/Example/StatusBarKit/demo.gif)
