@@ -7,7 +7,7 @@
 
 Customize your status bar like iOS 9.
 
-"◀︎Back to Safari" and "apple.com▶︎"
+「◀︎Back to Safari」 and 「apple.com▶︎」
 
 ![](https://raw.githubusercontent.com/himaratsu/StatusBarKit/master/Example/StatusBarKit/screenshot.png)
 
