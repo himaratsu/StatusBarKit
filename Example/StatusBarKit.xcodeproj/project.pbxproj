@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1D55DC108C9540EBECD6E803 /* Pods_StatusBarKit_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0983838E35160FBB893100 /* Pods_StatusBarKit_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
+		20157F651B6E112A00720E2A /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = 20157F641B6E112A00720E2A /* screenshot.png */; };
+		20157F691B6E11E000720E2A /* demo.gif in Resources */ = {isa = PBXBuildFile; fileRef = 20157F681B6E11E000720E2A /* demo.gif */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -32,6 +34,8 @@
 		0E0983838E35160FBB893100 /* Pods_StatusBarKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StatusBarKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EC0316B8C168864116A6538 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		1F4462B8D9CFDCC31688EFC1 /* StatusBarKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = StatusBarKit.podspec; path = ../StatusBarKit.podspec; sourceTree = "<group>"; };
+		20157F641B6E112A00720E2A /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		20157F681B6E11E000720E2A /* demo.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = demo.gif; sourceTree = "<group>"; };
 		3021C3D748C53BA3C5A298BE /* Pods_StatusBarKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StatusBarKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* StatusBarKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StatusBarKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -69,6 +73,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		20157F631B6E111E00720E2A /* screenshot */ = {
+			isa = PBXGroup;
+			children = (
+				20157F641B6E112A00720E2A /* screenshot.png */,
+				20157F681B6E11E000720E2A /* demo.gif */,
+			);
+			name = screenshot;
+			sourceTree = "<group>";
+		};
 		295621728E8CB04630B1C086 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -116,6 +129,7 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				20157F631B6E111E00720E2A /* screenshot */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -248,7 +262,9 @@
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
+				20157F691B6E11E000720E2A /* demo.gif in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				20157F651B6E112A00720E2A /* screenshot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
